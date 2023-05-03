@@ -1,5 +1,5 @@
 import Form from "./Form";
-import List from "./List";
+import Table from "./Table";
 
 import { useState, useEffect } from "react";
 
@@ -28,7 +28,7 @@ function App() {
       reqType={reqType} 
       setReqType={setReqType}
       />
-    <List 
+    <Table 
       items={items} 
       setItems={setItems}
       />
